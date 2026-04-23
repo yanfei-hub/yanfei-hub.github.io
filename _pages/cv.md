@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-A downloadable version is available here: [Yanfei Wang CV](/files/Yanfei_Wang_CV_2026_v2.docx)
+A PDF version is available here: [Yanfei Wang CV](/files/Yanfei_Wang_CV.pdf)
 
 ## Contact
 
