@@ -7,58 +7,33 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+A downloadable version is available here: [Yanfei Wang CV](/files/Yanfei_Wang_CV_2026_v2.docx)
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Contact
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- Email: [yanfeiwang29@gmail.com](mailto:yanfeiwang29@gmail.com)
+- [Google Scholar](https://scholar.google.com/citations?user=gF1N-WgAAAAJ&hl=en)
+- Location: Gainesville, Florida
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Areas of specialization
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+My research sits at the intersection of causal inference and longitudinal clinical modeling, using real-world data such as electronic health records and claims to answer decision-focused questions about disease risk, progression, and treatment strategies.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Education
+
+- **PhD in Biomedical Informatics**, University of Texas Health Center Houston, 2019 to 2023
+- **Master of Statistics**, George Washington University, 2016 to 2018
+- **Bachelor of Mathematics**, University of Colorado Denver, 2011 to 2015
+
+## Current and prior positions
+
+- **Assistant Scientist**, 2026 to present
+- **Postdoctoral Associate**, 2024 to 2025
+- **Graduate Research Assistant**, 2019 to 2023
+
+## Professional activities
+
+- Ad hoc reviewer for *Scientific Reports*, *BMC Cancer*, and IEEE ICH
+- Member of AMIA
+- Programme Committee for International Digital Public Health Conference 2026
+- Reviewer for 2026 to 2027 PHHP AI PhD Fellowship
