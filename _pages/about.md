@@ -7,29 +7,47 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Scientist whose research sits at the intersection of causal inference and longitudinal clinical modeling, using real-world data such as electronic health records and claims to answer decision-focused questions about disease risk, progression, and treatment strategies.
+I am an Assistant Scientist at the University of Florida. My research sits at the intersection of causal inference, target trial emulation, and longitudinal clinical modeling, with a focus on using real-world healthcare data such as electronic health records and claims to answer decision-relevant questions about treatment, disease progression, and clinical risk.
+
+My goal is to develop methodological frameworks that make routine clinical data more useful for real decision making, while being explicit about support, bias, missingness, censoring, and the limits of observational evidence.
+
+## Research overview
 
 My work centers on three connected areas:
 
-1. **Causal AI for real-world evidence**, including target trial emulation, time-varying treatment definitions, and clinically interpretable causal estimands.
-2. **Interpretable and trustworthy machine learning for longitudinal healthcare data**, with emphasis on transparent model structure, uncertainty quantification, and evaluation under irregular observation and missingness.
-3. **Bias-aware, deployment-oriented methodology**, including confounding, censoring, selection bias, transportability, and decision-facing model outputs.
+1. **Target trial emulation and longitudinal treatment strategy evaluation**, including treatment initiation, persistence, switching, add-on strategies, and delayed treatment effects in routine care data.
 
-## Research interests
+2. **Interpretable and trustworthy modeling for longitudinal healthcare data**, with emphasis on transparent structure, uncertainty quantification, and clinically meaningful representations of evolving patient state.
 
-- Causal inference for longitudinal EHR and claims data
-- Target trial emulation and dynamic treatment strategies
-- Real-world evidence and treatment effect estimation
-- Interpretable machine learning for healthcare
-- Drug repurposing and disease progression modeling
+3. **Bias-aware real-world evidence**, including confounding, censoring, irregular observation, support limitations, and transportability across care settings.
 
-## Current focus
+## Current directions
 
-My recent work focuses on methodological development for longitudinal treatment and outcome processes reconstructed from routine clinical care. This includes treatment timing, sustained exposure, add-on strategies, switching, observation-aware outcome assessment, and clinically grounded evaluation of real-world treatment policies.
+My recent work focuses on methodological development for longitudinal treatment and outcome processes reconstructed from routine clinical care. This includes:
+
+- treatment action reconstruction from EHR data
+- decision-time aligned representations
+- support-aware evaluation of treatment strategies
+- sustained exposure and lag-aware treatment effects
+- observation-aware outcome assessment
+- clinically grounded evaluation of real-world treatment policies
+
+## Application areas
+
+My work has been applied to several domains, including:
+
+- Alzheimer's disease and neurodegeneration
+- cancer outcomes and treatment safety
+- cardiovascular adverse events
+- chronic disease progression
+- drug repurposing using longitudinal clinical data
 
 ## Links
 
+- [Research](/research/)
+- [Publications](/publications/)
+- [Software](/software/)
 - [Google Scholar](https://scholar.google.com/citations?user=gF1N-WgAAAAJ&hl=en)
 - [GitHub](https://github.com/yanfei-hub)
-- [Curriculum Vitae](/files/Yanfei_Wang_CV_2026_v2.docx)
+- [Curriculum Vitae](/files/Yanfei_Wang_CV.pdf)
 - Email: [yanfeiwang29@gmail.com](mailto:yanfeiwang29@gmail.com)
