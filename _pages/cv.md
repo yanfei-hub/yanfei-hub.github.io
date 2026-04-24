@@ -60,7 +60,7 @@ My work spans oncology, cardiovascular safety, neurodegeneration, chronic diseas
 
 - Ad hoc reviewer for *Scientific Reports*, *BMC Cancer*, and IEEE ICH
 - Member of AMIA
-- Programme Committee for International Digital Public Health Conference 2026
+- Programme Committee for International Digital Public Health Conference 2026 and IEEE ICHI 2026
 - Reviewer for the 2026 to 2027 PHHP AI PhD Fellowship
 
 ## Links
