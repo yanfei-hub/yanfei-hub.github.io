@@ -8,8 +8,5 @@ main:
   - title: "Insights"
     url: /insights/
 
-  - title: "Software"
-    url: /software/
-
   - title: "CV"
     url: /cv/
