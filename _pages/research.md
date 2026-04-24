@@ -5,60 +5,55 @@ permalink: /research/
 author_profile: true
 ---
 
-My research focuses on causal inference, target trial emulation, and longitudinal clinical modeling using real-world healthcare data such as electronic health records and claims. I am especially interested in building decision-relevant methodology that respects the structure of routine clinical care rather than assuming that observational data behave like idealized trial data.
+My research focuses on causal inference, target trial emulation, and longitudinal clinical modeling using electronic health records and other real-world healthcare data. I build methodological frameworks that aim to make longitudinal clinical data more useful for real treatment decisions, while being explicit about support, bias, censoring, and the structure of routine care.
 
-## Research areas
+## Featured research directions
 
-### Target trial emulation with EHR
-I develop target trial emulation frameworks for routine clinical data, with emphasis on how to reconstruct actions, define treatment strategies, align follow-up with decision time, and restrict evaluation to clinically supported regions of the observed data. This work aims to make longitudinal EHR-based analyses more faithful to real treatment decisions.
+### Target Trial Emulation with EHR
 
-### Longitudinal treatment strategy evaluation
-My work studies sustained treatment, switching, add-on therapy, discontinuation, restart, and delayed treatment effects. The goal is to define treatment histories and estimands that remain clinically meaningful when medication use evolves over time.
+<img src="/images/research/target-trial-ehr.png" alt="Target Trial Emulation with EHR" width="760">
 
-### Bias-aware real-world evidence
-Because real-world data are shaped by care processes, I study confounding, censoring, irregular observation, selection bias, transportability, and support limitations. I am interested not only in estimation, but also in diagnosing when a comparison is and is not empirically reliable.
+**Reconstructing clinically meaningful treatment comparisons from routine clinical records.**
 
-## Representative projects
+This work develops operational target trial frameworks for electronic health records, with emphasis on:
 
-### 1. Target Trial Emulation with EHR
+- treatment action reconstruction from routine EHR data
+- decision-time aligned treatment evaluation
+- support-aware restriction before comparing strategies
+- clinically interpretable longitudinal treatment contrasts
 
-<img src="/images/research/target-trial-ehr.png" alt="Target Trial Emulation with EHR" width="750">
+[Paper](https://www.nature.com/articles/s41746-026-02563-z) | [Code](https://github.com/yanfei-hub/EHR-Target-Trail-Emulation)
 
-This project develops an operational framework for reconstructing clinically meaningful target trials from electronic health records. The framework emphasizes action reconstruction from observed care data, decision-time aligned representations, support-aware estimation, and clinically interpretable longitudinal treatment comparisons.
+---
 
-Key ideas include:
+### Longitudinal Treatment Strategies in Routine Care
 
-- reconstructing treatment action from routine EHR records
-- defining decision-time objects for longitudinal treatment evaluation
-- identifying empirical support regions before comparing strategies
-- aligning analysis with clinically meaningful treatment decisions rather than simplified baseline contrasts
+<img src="/images/research/longitudinal-treatment-strategies.png" alt="Longitudinal treatment strategies" width="760">
 
-**Related paper:** [An operational target trial simulation framework for clinical information using electronic health records](https://www.nature.com/articles/s41746-026-02563-z)  
-**Code:** [EHR-Target-Trail-Emulation](https://github.com/yanfei-hub/EHR-Target-Trail-Emulation)
+**Defining treatment histories that better reflect how chronic care actually evolves over time.**
 
-### 2. Longitudinal treatment strategies in routine care
-
-<img src="/images/research/longitudinal-treatment-strategies.png" alt="Longitudinal treatment strategies" width="750">
-
-This line of work studies add-on therapy, switching, persistence, gaps, restarts, and delayed treatment effects in longitudinal healthcare data. A central aim is to define strategy comparisons that better reflect how chronic treatment decisions are actually made in clinical care.
-
-Representative topics include:
+This line of work studies longitudinal treatment strategies such as:
 
 - add-on versus monotherapy strategies
 - early versus delayed treatment intensification
+- treatment persistence, gaps, restarts, and switching
 - sustained exposure and lag-aware treatment effects
-- treatment history definitions for chronic medication use
 
-### 3. Interpretable disease progression and decision-oriented modeling
+These projects aim to define treatment histories and comparisons that remain clinically meaningful when medication use changes over time.
 
-<img src="/images/research/disease-progression-modeling.png" alt="Disease progression modeling" width="750">
+---
 
-I also work on interpretable longitudinal modeling for disease progression, risk stratification, and treatment evaluation. This includes disease trajectory learning, uncertainty-aware modeling, and decision-facing representations that connect prediction with causal or policy questions.
+### Interpretable Disease Progression and Decision-Oriented Modeling
 
-Application areas include:
+<img src="/images/research/disease-progression-modeling.png" alt="Disease progression modeling" width="760">
 
-- Alzheimer’s disease and neurodegeneration
-- cancer outcomes and treatment safety
-- cardiovascular adverse events
-- chronic disease progression
-- drug repurposing using longitudinal clinical data
+**Building longitudinal models that support interpretation, uncertainty awareness, and decision relevance.**
+
+This work includes:
+
+- interpretable disease trajectory modeling
+- uncertainty-aware longitudinal prediction
+- decision-facing representations of evolving patient state
+- connections between predictive structure and causal questions
+
+Application areas include Alzheimer’s disease and neurodegeneration, cancer outcomes and treatment safety, cardiovascular adverse events, chronic disease progression, and drug repurposing using longitudinal clinical data.
