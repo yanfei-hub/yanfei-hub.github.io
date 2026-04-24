@@ -9,11 +9,11 @@ baseurl: ""
 repository: "yanfei-hub/yanfei-hub.github.io"
 
 author:
-  avatar:
+  avatar: "profile.png"
   name: "Yanfei Wang"
   pronouns:
-  bio: "Assistant Scientist working at the intersection of causal inference, longitudinal clinical modeling, and real-world evidence."
-  location: "Gainesville, Florida"
+  bio: "Assistant Scientist working on causal inference, target trial emulation, and longitudinal clinical modeling with real-world healthcare data."
+  location:
   employer: "University of Florida"
   uri:
   email: "yanfeiwang29@gmail.com"
